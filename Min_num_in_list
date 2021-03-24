@@ -1,0 +1,15 @@
+numbers=[7,11,115,340,400,110]
+
+min=numbers[0]
+
+for number in numbers:
+
+    if min>number:
+
+        min=number
+
+    else:
+
+        continue
+
+print(min)
