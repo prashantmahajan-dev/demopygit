@@ -1,0 +1,63 @@
+ while True:
+
+    operation = input('''What would you like to do?
+
+                            1. Add
+
+                            2. Subtract
+
+                            3. Multiply
+
+                            4. Divide
+
+                                   ''')
+
+    if operation in ('1','2','3','4'):
+
+        try:
+
+            x=int(input("Enter number1: "))
+
+        except:
+
+            print("Value Error")
+
+            break
+
+        try:
+
+            y=int(input("Enter number2: "))
+
+        except:
+
+            print("Value Error")
+
+            break
+
+        if operation=='1':
+
+            print("Sum is:", y + x)
+
+        elif operation=='2':
+
+            print("Subrtraction is:", x - y)
+
+        elif operation=='3':
+
+            print("Multiplication is", x*y)
+
+        elif operation=='4':
+
+            print("Division is: ",x/y)
+
+        break
+
+    else:
+
+        print("Value Error")
+
+        break
+
+else:
+
+     print("value error")
