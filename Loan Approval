@@ -1,0 +1,21 @@
+ has_good_credit=True
+
+has_criminal_record=False
+
+
+
+if has_good_credit and not has_criminal_record:#
+
+    print('Loan approved!')
+
+
+
+else:
+
+    print('Loan not approved')
+
+# only when the above 2 statements are true can u approve the loan will be approved
+has_good_credit is true
+"not has_criminal_record" is true
+2 conditions satisfied
+ and hence loan will be approved 
