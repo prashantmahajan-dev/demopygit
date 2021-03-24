@@ -1,0 +1,7 @@
+# Reverse an array
+
+from array import *
+
+Original_array=array('i', [1, 3, 5, 3, 7, 1, 9, 3])
+Original_array.reverse()
+print(" The new array is: " +str(Original_array))
