@@ -1,0 +1,13 @@
+ Weight=input('Weight: ' )
+
+Type= input('(L)bs or (K)g: ')
+
+
+
+if Type=='L' or Type=='l':
+
+    print(f'You are {int(Weight)*0.45} Kilos')
+
+if Type=='K' or Type=='k':
+
+    print(f'You are {int(Weight)/0.45} pounds')
