@@ -1,0 +1,15 @@
+ string='gops'
+
+rev_string=""
+
+n=len(string)
+
+
+
+for r in string:
+
+    rev_string+=string[n-1]
+
+    n-=1
+
+print(rev_string)
